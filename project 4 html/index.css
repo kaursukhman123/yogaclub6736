@@ -1,0 +1,184 @@
+body {
+	background-color: peachpuff;
+}
+
+#heads {
+	display: flex;
+	justify-content: space-between;
+    max-width:300px;
+	align-items: flex-end;
+	margin-top: 10px;
+    padding: 0px;
+}
+
+#content-container {
+    position:absolute;
+	display: flex; 
+    text-align: right;
+	
+}  
+
+#heading {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+	height: 100%;
+	padding: 0px;
+}
+
+.yogaimage {
+	position: absolute;
+	left:-90px;
+	height: 500px;
+	width: 700px;
+    padding: 90px;
+}
+
+#content {
+	position: absolute;
+	right:0px;
+	top:100px;
+	margin: right;
+}
+
+.calmimage {
+	position: absolute;
+	right:150px;
+	top:300px;
+    height:400px;
+    width:400px;
+}
+
+#link {
+	position: absolute;
+    left:-500px;
+    margin-left: 0px;
+    margin-top: -850px;
+	font-size: 30px;
+   
+}
+
+
+
+#form {
+    background-color: grey;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color:maroon;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+header {
+   
+    color:brown;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color:brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#services {
+    padding: 40px;
+}
+
+#beginner {
+    position: absolute;
+    left:50;
+    color:brown;
+}
+
+.beginner {
+    height: 500px;
+    width: 600px;
+}
+
+#advanced {
+    position: absolute;
+    right:0;
+    color:brown;
+}
+
+.advanced {
+    height: 500px;
+    width: 600px;
+}
+
+#meditation {
+    position: absolute;
+    right:380px;
+    top:850px;
+    color:brown;
+}
+
+.meditation {
+    height: 500px;
+    width: 600px;
+} 
+
+footer {
+    position:absolute;
+    right:500px;
+    top:1500px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+@media (max-width: 768px) {
+    #button-row {
+        flex-direction: column; 
+        align-items: center; 
+
+    .button {
+        margin-bottom: 10px; 
+    }
+}
+}
